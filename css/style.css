@@ -1,0 +1,278 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.blockone{
+	height: 700px;
+}
+
+.main-header{
+	z-index: 1;
+}
+
+.main-header ul{
+	margin-left: 3%;
+	list-style: none;
+	display: flex;
+}
+
+.main-header li{
+	margin-left: 10%;
+	padding-top: 3%;
+}
+
+.main-header a{
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.main-header img{
+	margin-top: 0.5%;
+	width: 5%;
+	height: 10%;
+}
+
+.description{
+	margin-top: 5%;
+}
+
+.description h1{
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+}
+
+.description p{
+	text-align: center;
+	font-family: "Comfortaa", Arial;
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 70px;
+	color: #fff;
+	margin: 1%;
+	margin-top: 6%;
+}
+
+.main-img{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -2;
+}
+
+.blocktwo{
+	width: 100%;
+	margin-top: 10%;
+}
+
+.blocktwo h1{
+	padding-top: 3%;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+}
+.wave{
+	margin-top: 5%;
+	display: flex;
+}
+
+.sex-pistols, .ramones{
+	width: 50%;
+	height: 600px;
+}
+
+.sex-pistols img{
+	width: 70%;
+	padding-top: 25%;
+	padding-left: 15%;
+}
+
+.ramones img{
+	width: 30%;
+	padding-top: 25%;
+	padding-left: 15%;
+}
+
+.blockthree{
+	width: 100%;
+	height: 750px;
+	margin-top: 5%;
+}
+
+.blockthree h1{
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+}
+
+.wavetwo{
+	padding-top: 15%;
+}
+
+.logo-1, .logo-2, .logo-3, .logo-4{
+	padding-left: 5%;
+	width: 20%;
+	height: 30%;
+}
+
+.logo-4{
+	width: 15%;
+	height: 160px;
+}
+
+
+.activeli{
+	border-bottom: red 2px solid;
+}
+
+.persons-container{
+	width: 25%;
+	height: 500px;
+	float: left;
+	margin-top: 7%;
+	margin-left: 6%;
+	border: 5px #000 solid;
+	border-radius: 3px;
+}
+
+.person-img{
+	width: 100%;
+	height: 100%;
+}
+
+.person-img:hover{
+	filter: blur(2px);
+	transition: 0.5s;
+}
+
+.formImg{
+	display: none;
+}
+
+.ideoblock{
+	margin-top: 2%;
+}
+
+.ideoblock p{
+	text-align: center;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 30px;
+	color: #fff;
+}
+
+.panel{
+	width: 15%;
+	float: left;
+	height: 100%;
+	border-right: 5px solid red; 
+}
+
+.panel li{
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #fff;
+	margin-top: 10%;
+}
+
+.tab2, .tab3, .tab4, .tab5{
+	display: none;
+}
+
+.main-header-rus ul{
+	margin-left: 3%;
+	list-style: none;
+	display: flex;
+}
+
+.main-header-rus li{
+	margin-left: 10%;
+	padding-top: 3%;
+}
+
+.main-header-rus a{
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	line-height: 16px;
+	color: #000;
+	text-decoration: none;
+}
+
+.main-header-rus img{
+	margin-top: 0.5%;
+	width: 5%;
+	height: 10%;
+}
+
+.end80{
+	margin-top: 2%;
+}
+
+.end80 h1{
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #000;
+	text-align: center;
+}
+
+.end80 p{
+	padding-top: 4%;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 70px;
+	color: #fff;
+	text-align: center;
+}
+
+.blockthree{
+	float: left;
+}
+.logo-cont, .logo-cont2{
+	position: relative;
+	bottom: 120px;
+}
+.logo-cont img{
+	width: 20%;
+	margin: 5%;
+}
+
+
+.logo-cont2 img{
+	width: 30%;
+}
+
+footer a{
+	color: #fff;
+}
+
+footer p{
+	margin: 1%;
+	text-align: center;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	color: #fff;
+}
