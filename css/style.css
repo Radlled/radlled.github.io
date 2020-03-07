@@ -162,7 +162,54 @@ a{
 }
 
 .formImg{
+	width: 70%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.formImg-container{
+	top: 100px;
+   	width: 60%;
+	margin: 0 auto;
+	background-color: #fff;
+	position: absolute;
+	padding: 3% 3%;
+	box-shadow: 10px 10px 20px 0 #000;
 	display: none;
+}
+
+.formImg-container h1{
+	text-align: center;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+}
+
+.formImg-container p{
+	font-family: Arial, sans-serif;
+	padding: 1%;
+}
+
+.formImg-container img{
+	width: 450px;
+	height: 300px;
+}
+
+#close{
+	width: 6%;
+	height: 8%;
+	position: absolute;
+	bottom: 650px;
+	left: 950px;
+}
+
+#closetwo{
+	width: 6%;
+	height: 8%;
+	position: absolute;
+	bottom: 720px;
+	left: 950px;
 }
 
 .ideoblock{
@@ -200,6 +247,11 @@ a{
 	height: 100%;
 	border-right: 5px solid red; 
 	float: left;
+	margin-left: 1%;
+}
+
+.panel ul { 
+	list-style: none;
 }
 
 .panel li{
