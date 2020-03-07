@@ -46,6 +46,7 @@ a{
 }
 
 .description h1{
+	font-family: "Comfortaa", Arial, sans-serif;
 	text-align: center;
 	color: #fff;
 	font-size: 50px;
@@ -165,11 +166,15 @@ a{
 }
 
 .ideoblock{
-	margin-top: 2%;
+	margin-top: 3%;
+	margin-left: 6%;
+	float: left;
+	width: 70%;
 }
 
+
 .ideoblock p{
-	text-align: center;
+	text-align: justify;
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 24px;
 	font-weight: 500;
@@ -177,11 +182,24 @@ a{
 	color: #fff;
 }
 
+.ideoblock ul{
+	text-align: justify;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 30px;
+	color: #fff;
+}
+
+.ideoblock strong{
+	color: #ffe100;
+}
+
 .panel{
 	width: 15%;
-	float: left;
 	height: 100%;
 	border-right: 5px solid red; 
+	float: left;
 }
 
 .panel li{
@@ -249,18 +267,23 @@ a{
 .blockthree{
 	float: left;
 }
-.logo-cont, .logo-cont2{
-	position: relative;
-	bottom: 120px;
-}
-.logo-cont img{
-	width: 20%;
-	margin: 5%;
-}
 
-
-.logo-cont2 img{
+.scale, .scale2 {
+    display: inline-block;
 	width: 30%;
+	margin-left: 3%;
+}
+.scale img, .scale2 img{
+    transition: 1s; 
+    display: block; 
+}
+.scale img:hover, .scale2 img:hover {
+    transform: scale(1.2); 
+}
+
+.logo-cont img, .logo-cont2 img{
+	width: 70%;
+	float: left;
 }
 
 footer a{
