@@ -22,7 +22,7 @@ a{
 }
 
 .main-header li{
-	margin-left: 10%;
+	margin-left: 5%;
 	padding-top: 3%;
 }
 
@@ -336,6 +336,57 @@ a{
 .logo-cont img, .logo-cont2 img{
 	width: 70%;
 	float: left;
+}
+
+.gnfirst{
+	width: 100%;
+	padding-top: 12%;
+	height: 700px;
+}
+
+.gnfirst img{
+	width: 30%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.gnfirst p{
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 50px;
+	color: #fff;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.genres{
+	width: 100%;;
+	height: 700px;
+}
+
+.genres img{
+	width: 30%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.genres p{
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 50px;
+	color: #fff;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.gnleft img{
+	float: left;
+}
+
+.gnright img{
+	float: right;
 }
 
 footer{
