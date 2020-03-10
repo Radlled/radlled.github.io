@@ -389,6 +389,28 @@ a{
 	float: right;
 }
 
+.blockone iframe{
+	width: 30%;
+	height: 38%;
+	margin-top: 10%;
+	margin-left: 3%;
+	float: left;
+}
+
+.video{
+	display: block;
+	transition: 1s;
+}
+
+.video:hover{
+	transform: scale(1.2);
+}
+
+.twovideo{
+	padding-bottom: 15%;
+	padding-top: 20%;
+}
+
 footer{
 	margin-top: 10%;
 	height: 100px;
