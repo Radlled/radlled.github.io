@@ -402,11 +402,6 @@ a{
 	float: left;
 }
 
-.video{
-	display: block;
-	transition: 1s;
-}
-
 .twovideo{
 	padding-bottom: 15%;
 	padding-top: 20%;
