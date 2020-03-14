@@ -407,10 +407,6 @@ a{
 	transition: 1s;
 }
 
-.video:hover{
-	transform: scale(1.2);
-}
-
 .twovideo{
 	padding-bottom: 15%;
 	padding-top: 20%;
