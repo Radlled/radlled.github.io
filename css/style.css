@@ -345,7 +345,7 @@ a{
 
 .gnfirst{
 	width: 100%;
-	padding-top: 12%;
+	margin-top: 7%;
 	height: 700px;
 }
 
@@ -367,7 +367,7 @@ a{
 
 .genres{
 	width: 100%;;
-	height: 700px;
+	height: 600px;
 }
 
 .genres img{
@@ -395,17 +395,50 @@ a{
 }
 
 .blockone iframe{
-	width: 30%;
-	height: 38%;
+	width: 45%;
+	height: 52%;
 	margin-top: 10%;
 	margin-left: 3%;
 	float: left;
+	margin-bottom: 10%;
 }
 
-.twovideo{
+/*.twovideo{
 	padding-bottom: 15%;
 	padding-top: 20%;
+}*/
+
+.hlgenf{
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+	margin-top: 5%;
 }
+
+.hlgen{
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+
+
+.filmname{
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 25px;
+	color: #fff;
+	margin-left: 3%;
+}
+
 
 footer{
 	margin-top: 10%;
